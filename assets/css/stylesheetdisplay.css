@@ -1,0 +1,79 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light gray background */
+    color: #361cdf; /* Dark text color */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Bootstrap primary blue */
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Profile Card Styles */
+.profile-section {
+    background: #ffffff; /* White background for profile sections */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px #0033cc;
+    transition: transform 0.2s;
+}
+
+.profile-section:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+
+.profile-section label {
+    font-weight: bold;
+    color: #495057; /* Dark gray for labels */
+}
+
+.profile-section .value {
+    color: #6c757d; /* Medium gray for profile values */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.button {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .profile-section {
+        padding: 15px;
+    }
+}

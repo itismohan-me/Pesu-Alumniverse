@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Top Header */
+  .topheader {
+    background-color: rgb(36, 89, 164); /* PESU Blue */
+    height: 6vh;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: rgb(16, 42, 94); /* PESU Dark Navy */
+    height: 13vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+  }
+  
+  .header .text {
+    color: rgb(255, 255, 255); /* White text */
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 10px;
+    border-left: 3px double whitesmoke;
+    padding-left: 10px;
+  }
+  
+  /* Navigation bar styling */
+  .nav-bar {
+    background-color: rgb(36, 89, 164); /* PESU Blue */
+    padding: 10px 0;
+  }
+  
+  .nav-bar .list-items ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .nav-bar .list-items ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .nav-bar .list-items ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-bar .list-items ul li a:hover {
+    background-color: white;
+    color: rgb(36, 89, 164); /* PESU Blue */
+    border-radius: 5px;
+  }
+  
+  /* Dropdown styling */
+  .nav-bar .list-items ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(16, 42, 94); /* PESU Dark Navy */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .nav-bar .list-items ul li .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .nav-bar .list-items ul li .dropdown-content a:hover {
+    background-color: rgb(242, 153, 74); /* PESU Orange */
+  }
+  
+  .nav-bar .list-items ul li:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Active Link Styling */
+  .nav-bar .list-items ul li a.active {
+    background-color: white;
+    color: rgb(36, 89, 164);
+    border-radius: 5px;
+  }
+  
+  /* Logout button styling */
+  .nav-bar .list-items ul li:last-child a {
+    color: #f44336; /* Red color for logout */
+  }
+  
+  .nav-bar .list-items ul li:last-child a:hover {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+  }
+  

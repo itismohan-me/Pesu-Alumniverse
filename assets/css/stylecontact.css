@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Change to a preferred font if necessary */
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/images/homeimage1.jpeg'); /* Update with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #2D2D2D; /* Main text color */
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 800px; /* Maximum width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners */
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+.container {
+    color: whitesmoke;
+    top: 80px;
+    left: 520px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    width: 800px;
+    height: 450px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  /* signup form container styling  */
+  
+/* Headings */
+h1 {
+    font-size: 2.5em; /* Main heading size */
+    color: #003366; /* Dark blue color for headings */
+    text-align: center; /* Centered heading */
+}
+
+h2 {
+    font-size: 1.8em; /* Subheading size */
+    color: #005EB8; /* PES University color */
+    margin-top: 20px; /* Space above subheadings */
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2em; /* Default paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+/* Map Section */
+.map-section {
+    margin-top: 30px; /* Space above map */
+    text-align: center; /* Center the map section */
+}
+
+/* Responsive Iframe */
+iframe {
+    max-width: 100%; /* Responsive width */
+    border: none; /* Remove border */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller heading size */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller subheading size */
+    }
+
+    p {
+        font-size: 1em; /* Smaller paragraph font size */
+    }
+}
